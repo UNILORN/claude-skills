@@ -1,0 +1,22 @@
+{
+  "name": "unilorn-skills",
+  "owner": {
+    "name": "unilorn",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Personal skill marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "my-skills",
+      "description": "Collection of personal custom skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/effective-go"
+      ]
+    }
+  ]
+}
