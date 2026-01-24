@@ -15,7 +15,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/effective-go"
+        "./skills/effective-go",
+        "./skills/github-pr-description"
       ]
     }
   ]
