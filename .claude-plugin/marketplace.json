@@ -10,14 +10,48 @@
   },
   "plugins": [
     {
-      "name": "my-skills",
-      "description": "Collection of personal custom skills",
+      "name": "effective-go",
+      "description": "Apply Go best practices and idioms",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/effective-go",
-        "./skills/github-pr-description",
+        "./skills/effective-go"
+      ]
+    },
+    {
+      "name": "github-pr-description",
+      "description": "Generate or update GitHub PR descriptions",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/github-pr-description"
+      ]
+    },
+    {
+      "name": "codex-subagent-delegation",
+      "description": "Delegate implementation tasks to Codex CLI subagents",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./skills/codex-subagent-delegation"
+      ]
+    },
+    {
+      "name": "backend-go-architecture",
+      "description": "Go backend architecture and implementation reference",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/backend-go-architecture"
+      ]
+    },
+    {
+      "name": "frontend-react-architecture",
+      "description": "React frontend architecture and implementation reference",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/frontend-react-architecture"
       ]
     }
   ]
