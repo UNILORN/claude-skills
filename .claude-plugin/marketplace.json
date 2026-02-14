@@ -16,7 +16,8 @@
       "strict": false,
       "skills": [
         "./skills/effective-go",
-        "./skills/github-pr-description"
+        "./skills/github-pr-description",
+        "./skills/codex-subagent-delegation"
       ]
     }
   ]

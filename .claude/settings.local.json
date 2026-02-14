@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "WebSearch",
+      "WebFetch(domain:developers.openai.com)",
+      "Bash(echo:*)",
+      "Bash(/bin/bash:*)"
     ]
   }
 }
