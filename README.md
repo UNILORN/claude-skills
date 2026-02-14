@@ -1,6 +1,6 @@
 # unilorn-skills
 
-Personal skill marketplace for Claude Code, with local sync support for Codex.
+Personal skill marketplace for Claude Code and Codex.
 
 ## Structure
 
@@ -23,28 +23,30 @@ Personal skill marketplace for Claude Code, with local sync support for Codex.
 2. Edit the YAML frontmatter and content
 3. Add the skill path to `.claude-plugin/marketplace.json` in the `skills` array
 
-## Installation (Claude Code)
+## Installation (Codex)
+
+From this repository root:
+
+```bash
+npx skills add .
+```
+
+When prompted, choose **Symlink** so updates in this repo are reflected immediately in Codex.
+
+<details>
+<summary>Other install methods</summary>
+
+### Claude Code (marketplace)
 
 ```bash
 # Add this marketplace
-/plugin marketplace add <github-user>/<repo-name>
+/plugin marketplace add UNILORN/claude-skills
 
 # Install skills from this marketplace
 /plugin install my-skills@unilorn-skills
 ```
 
-## Installation (Codex)
-
-If you want to use these skills with Codex, sync them into your Codex skills directory.
-
-```bash
-scripts/sync_skills.sh
-
-# Optional: remove skills in ~/.codex/skills that are not in this repo
-scripts/sync_skills.sh --delete
-```
-
-The script syncs `skills/*` to `~/.codex/skills` by default. Set `CODEX_HOME` to target a different Codex home directory.
+</details>
 
 ## Skills
 
