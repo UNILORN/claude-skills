@@ -29,7 +29,7 @@
     },
     {
       "name": "codex-subagent-delegation",
-      "description": "Delegate implementation tasks to Codex CLI subagents",
+      "description": "Delegate implementation to Codex CLI while Claude only supervises and reports",
       "source": "./",
       "strict": false,
       "skills": [
